@@ -4,7 +4,9 @@
     --button-color: #89c4f4;
     --button-text-color: #2e343b;
 }
-
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 * {
     font-family: 'Koulen', cursive;
 }
@@ -16,7 +18,6 @@ body {
     margin-top: 50px;
 }
 
-/* .flex-container {
-    display: block;
-    margin: 20px 50% 0 50%;
-} */
+.container {
+    
+}

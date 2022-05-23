@@ -80,13 +80,13 @@ function userScissors() {
         if (ranNum === 1) {
             compChoice = "Rock";
             console.log("rock");
-            result = "Rock Smash!";
+            result = "Rock Smash You!";
             console.log(result);
         }
         if (ranNum === 2) {
             compChoice = "Paper";
             console.log("paper");
-            result = "Sweet!";
+            result = "Sweet You Finally Won!";
             console.log(result);
         }
         if (ranNum === 3) {

@@ -1,6 +1,6 @@
 :root {
-    --dark-background-color: #0d7272;
-    --light-text-color: #f2f1ef;
+    --dark-background-color: #034252;
+    --light-text-color: #b2cce5;
     --button-color: #89c4f4;
     --button-text-color: #2e343b;
 }
@@ -12,9 +12,11 @@
 body {
     background-color: var(--dark-background-color);
     color: var(--light-text-color);
+    text-align: center;
+    margin-top: 50px;
 }
 
-.flex-container {
+/* .flex-container {
     display: block;
     margin: 20px 50% 0 50%;
-}
+} */
